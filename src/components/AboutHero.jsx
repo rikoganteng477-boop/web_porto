@@ -6,7 +6,7 @@ const AboutHero = () => {
           <img 
             alt="Naufal Hisyam Ramdani Portrait" 
             className="absolute inset-0 w-full h-full object-cover object-center" 
-            src="/profil.jpeg"
+            src={`${import.meta.env.BASE_URL}profil.jpeg`}
           />
         </div>
         
